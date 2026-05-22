@@ -12,7 +12,8 @@ The core objective is to reanimate Sanskrit sounds as a learnable linguistic dis
 * Rhythmic score consistently outperformed composite fidelity across both models, indicating prosodic structure is more learnable than full phonological reconstruction from this corpus
 * Findings consistent with documented Tang-era practice of Xuanzang and Kumārajīva
 
-  <img width="267" height="227.5" alt="image" src="https://github.com/user-attachments/assets/d2c8220f-3520-4fd6-b8f3-235e38e01c8e" />
+  <img align = "center" width="267" height="227.5" alt="image" src="https://github.com/user-attachments/assets/d2c8220f-3520-4fd6-b8f3-235e38e01c8e" />
+ 
   Fig (i): Relationship between rhythmic preservation and phonetic similarity scores for Model 1 (left) and Model 2 (right).
 
 
@@ -49,6 +50,7 @@ Two configurations of the model were trained under standardized powers-of-two se
 |Model 2| 512       | 512         | 14.9M      | 77             | 61.06%              | 57.99%        |
 
 <img width="178" height="151.6" alt="image" src="https://github.com/user-attachments/assets/c95e29b8-f103-4cc9-a1b9-4197b4ca346f" /> Fig 1A <img width="178" height="155.6" alt="image" src="https://github.com/user-attachments/assets/4c6a8211-cb4a-45d7-9159-284a0dafefd1" /> Fig 1B
+
 <img width="178" height="155.6" alt="image" src="https://github.com/user-attachments/assets/1a857616-1310-48f4-8fa7-17fe90082c3e" /> Fig 2A <img width="178" height="155.6" alt="image" src="https://github.com/user-attachments/assets/c8b960fb-f123-4c91-ac5e-9d1f5d982eec" /> Fig 2B
 
 Fig 1A, 1B : Training and validation loss trajectories for Model 1 and Model 2 respectively.

@@ -53,6 +53,7 @@ Two configurations of the model were trained under standardized powers-of-two se
 <img width="547" height="455" alt="image" src="https://github.com/user-attachments/assets/c8b960fb-f123-4c91-ac5e-9d1f5d982eec" /> Fig 2B
 
 Fig 1A, 1B : Training and validation loss trajectories for Model 1 and Model 2 respectively.
+
 Fig 2A, 2B : Training and validation accuracies for Model 1 and Model 2 respectively.
 
 

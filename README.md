@@ -13,13 +13,6 @@ The core objective is to reanimate Sanskrit sounds as a learnable linguistic dis
 * Rhythmic score consistently outperformed composite fidelity across both models, indicating prosodic structure is more learnable than full phonological reconstruction from this corpus
 * Findings consistent with documented Tang-era practice of Xuanzang and Kumārajīva
 
-<p align="center">
-  <img width="267" height="227.5" alt="image" src="https://github.com/user-attachments/assets/d2c8220f-3520-4fd6-b8f3-235e38e01c8e" />
-</p>
- 
-  Fig (i): Relationship between rhythmic preservation and phonetic similarity scores for Model 1 (left) and Model 2 (right).
-
-
 
 ## Dataset
 The dataset was obtained from 2 primary volumes (TSIK 2133-b and TSIK 2135) within the Taishō Shinshū Daizōkyō, accessed via CBETA's digitized repository.

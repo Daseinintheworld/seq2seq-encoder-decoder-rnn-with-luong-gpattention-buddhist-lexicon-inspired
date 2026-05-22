@@ -13,6 +13,7 @@ The core objective is to reanimate Sanskrit sounds as a learnable linguistic dis
 * Findings consistent with documented Tang-era practice of Xuanzang and Kumārajīva
 
   <img width="267" height="227.5" alt="image" src="https://github.com/user-attachments/assets/d2c8220f-3520-4fd6-b8f3-235e38e01c8e" />
+  Fig (i): Relationship between rhythmic preservation and phonetic similarity scores for Model 1 (left) and Model 2 (right).
 
 
 
@@ -33,7 +34,7 @@ Models: Two configurations were tested:
     Model 1: 256 GRU/dense units (≈8.1M parameters).
     Model 2: 512 GRU/dense units (≈14.9M parameters).
 
-2. Dataset & Philological Foundation
+2. Philological Foundation
 
 Corpus: ≈2,613 Siddhaṃ–Hanzi transliteration pairs extracted from Buddhist esoteric texts (TSIK 2133-b and 2135) within the CBETA digitized repository.
 Translators: The source material reflects the work of influential figures like Kumārajīva (344–413 CE) and Xuanzang (602–664 CE).
@@ -54,12 +55,7 @@ Fig 1A, 1B : Training and validation loss trajectories for Model 1 and Model 2 r
 
 Fig 2A, 2B : Training and validation accuracies for Model 1 and Model 2 respectively.
 
-
-
-
-
-
-5. Custom Evaluation Metrics
+4. Custom Evaluation Metrics
 
 To assess linguistic validity beyond simple token-to-token accuracy, two custom metrics were developed:
 Phonetic Similarity (M): Quantified using the PanPhon library's Distance class on International Phonetic Alphabet (IPA) representations of the sequences. It measures articulatory distance between predicted and ground-truth sounds.
@@ -68,7 +64,7 @@ Composite Fidelity (F): A logistic combination of the normalized phonetic and rh
 
 ## Performance Summary
 
-The models achieved high accuracy and robust phonetic generalization across the test set.
+The models achieved moderate token-level accuracy, with strong phonetic and rhythmic generalization as measured by custom linguistic metrics.
 | Metric                     | Model 1 (256 Units) | Model 2 (512 Units) | 
 |----------------------------|---------------------|---------------------|
 |Test Accuracy               | 57.49%              | 57.99%              |

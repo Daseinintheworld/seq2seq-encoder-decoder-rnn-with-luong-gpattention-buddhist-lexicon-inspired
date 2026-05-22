@@ -6,6 +6,13 @@ The project employs a Sequence-to-Sequence (Seq2Seq) encoder–decoder model wit
 
 The core objective is to reanimate Sanskrit sounds as a learnable linguistic distribution P(y∣x) , capturing the historical balance between phonetic fidelity and metrical symmetry central to ancient transliteration practices.
 
+## Key Findings
+* Model learned the historical translators' phonetic-first, metrical-second priority hierarchy
+* Larger model (512 units) showed higher composite fidelity despite lower phonetic fidelity — suggesting learned metrical weighting
+* Rhythmic score consistently outperformed composite fidelity across both models, indicating prosodic structure is more learnable than full phonological reconstruction from this corpus
+* Findings consistent with documented Tang-era practice of Xuanzang and Kumārajīva
+
+
 ## Dataset
 The dataset was obtained from 2 primary volumes (TSIK 2133-b and TSIK 2135) within the Taishō Shinshū Daizōkyō, accessed via CBETA's digitized repository.
 

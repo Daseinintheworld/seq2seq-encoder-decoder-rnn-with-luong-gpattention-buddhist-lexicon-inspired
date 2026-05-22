@@ -1,3 +1,4 @@
+
 # SEQ2SEQ Reconstruction of Sanskrit Phonology via Tang-Era Siddhaṃ–Hanzi Transliteration (SRSP-TH)
 ## Overview
 This repository hosts the code and resources for the research paper, "SEQ2SEQ Reconstruction of Sanskrit Phonology via Tang-Era Siddhaṃ–Hanzi Transliteration: A Buddhist-Lexicon-Inspired Encoder–Decoder Model with Luong Attention".
@@ -51,7 +52,7 @@ Two configurations of the model were trained under standardized powers-of-two se
 |Model 1| 256       | 256         | 8.1M       | 105            | 60.43%              | 57.49%        |
 |Model 2| 512       | 512         | 14.9M      | 77             | 61.06%              | 57.99%        |
 
-  <img width="178" height="151.6" alt="image" src="https://github.com/user-attachments/assets/c95e29b8-f103-4cc9-a1b9-4197b4ca346f" /> Fig 1A <img width="178" height="155.6" alt="image" src="https://github.com/user-        attachments/assets/4c6a8211-cb4a-45d7-9159-284a0dafefd1" /> Fig 1B
+  <img width="178" height="151.6" alt="image" src="https://github.com/user-attachments/assets/c95e29b8-f103-4cc9-a1b9-4197b4ca346f" /> Fig 1A <img width="178" height="155.6" alt="image" src="https://github.com/user-attachments/assets/d9953c4a-be59-4018-9291-eedfbf18709a" /> Fig 1B
 
   <img width="178" height="155.6" alt="image" src="https://github.com/user-attachments/assets/1a857616-1310-48f4-8fa7-17fe90082c3e" /> Fig 2A <img width="178" height="155.6" alt="image" src="https://github.com/user-attachments/assets/c8b960fb-f123-4c91-ac5e-9d1f5d982eec" /> Fig 2B
 

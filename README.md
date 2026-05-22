@@ -75,7 +75,7 @@ The models achieved moderate token-level accuracy, with strong phonetic and rhyt
 |----------------------------|---------------------|---------------------|
 |Test Accuracy               | 57.49%              | 57.99%              |
 |Mean Phonetic Similarity    | 0.641               | 0.609               |
-|Mean Cmposite Fidelity Score| 0.463               | 0.488               |
+|Mean Composite Fidelity Score| 0.463               | 0.488               |
 
 Model 2, with its larger representational capacity, provided a marginal but perceptually substantial improvement in overall fidelity by better modeling complex articulatory transitions and preserving rhythmic symmetry.
 

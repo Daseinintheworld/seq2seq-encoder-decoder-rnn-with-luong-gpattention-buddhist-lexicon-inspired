@@ -63,10 +63,13 @@ Fig 2A, 2B : Training and validation accuracies for Model 1 and Model 2 respecti
 
 4. Custom Evaluation Metrics
 
-To assess linguistic validity beyond simple token-to-token accuracy, two custom metrics were developed:
-Phonetic Similarity (M): Quantified using the PanPhon library's Distance class on International Phonetic Alphabet (IPA) representations of the sequences. It measures articulatory distance between predicted and ground-truth sounds.
-Rhythmic Score (R): An exponential similarity function, R, which penalizes deviations in syllabic length between the source	and target sequences.
-Composite Fidelity (F): A logistic combination of the normalized phonetic and rhythmic scores, reflecting the historical priority of acoustic accuracy modulated by metrical balance.
+To assess linguistic validity beyond simple token-to-token accuracy, three custom metrics were developed:
+
+  * Phonetic Similarity (M): Quantified using the PanPhon library's Distance class on International Phonetic Alphabet (IPA) representations of the sequences. It measures articulatory distance between predicted and ground-truth sounds.
+
+  * Rhythmic Score (R): An exponential similarity function, R, which penalizes deviations in syllabic length between the source	and target sequences.
+
+  * Composite Fidelity (F): A logistic combination of the normalized phonetic and rhythmic scores, reflecting the historical priority of acoustic accuracy modulated by metrical balance.
 
 ## Performance Summary
 
